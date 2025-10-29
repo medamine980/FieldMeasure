@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>FieldMeasure Changelog</title>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+
+        <!-- ANDROID - Google Play (Works for both Closed Testing and Production) -->
+        <item>
+            <title>Version 1.2.5 (Android)</title>
+            <sparkle:version>1.2.5</sparkle:version>
+            <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
+            <sparkle:os>android</sparkle:os>
+            <sparkle:buildNumber>16</sparkle:buildNumber>
+
+            <!-- This link works for both closed testing and production -->
+            <link>https://play.google.com/store/apps/details?id=com.github.medamine980.fieldmeasure</link>
+
+            <description>
+                <![CDATA[
+                    <ul>
+                        <li>Added Light Theme and Dark Theme.</li>
+                        <li>General performance improvements and bug fixes.</li>
+                    </ul>
+                ]]>
+            </description>
+        </item>
+
+        <!-- iOS - App Store / TestFlight (Commented out until you have iOS version) -->
+        <!--
+        <item>
+            <title>Version 1.1.3 (iOS)</title>
+            <sparkle:version>1.1.3</sparkle:version>
+            <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
+            <sparkle:os>ios</sparkle:os>
+            <sparkle:buildNumber>8</sparkle:buildNumber>
+
+            Replace YOUR_APP_STORE_ID with your actual App Store ID
+            You can find it in App Store Connect > App Information > Apple ID
+            Example: https://apps.apple.com/app/id1234567890
+
+            <link>https://apps.apple.com/app/idYOUR_APP_STORE_ID</link>
+
+            <description>
+                <![CDATA[
+                    <ul>
+                        <li>Added Light Theme and Dark Theme.</li>
+                        <li>General performance improvements and bug fixes.</li>
+                    </ul>
+                ]]>
+            </description>
+        </item>
+        -->
+    </channel>
+</rss>
